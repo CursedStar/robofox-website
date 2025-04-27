@@ -3,33 +3,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RoboFox - Your Server Guardian</title>
   <meta name="description" content="RoboFox is a powerful and customizable Discord moderation bot featuring anti-raid, logging, welcome system, and much more.">
   <meta name="keywords" content="Discord, Bot, Moderation, AntiRaid, Welcome, Logging, Protection, RoboFox">
   <meta name="author" content="CursedStar">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
   <meta property="og:title" content="RoboFox - Your Server Guardian">
   <meta property="og:description" content="Protect, manage, and grow your Discord server with RoboFox. Powerful moderation, anti-raid, logging and welcome systems.">
   <meta property="og:image" content="https://cdn.discordapp.com/attachments/918582795306164255/1365043266843840652/627d04f8ae7d889fe198f39253fb3a0e.png">
   <meta property="og:url" content="https://robofox.xyz">
   <meta property="og:type" content="website">
-
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="RoboFox - Your Server Guardian">
   <meta name="twitter:description" content="Protect, manage, and grow your Discord server with RoboFox. Powerful moderation, anti-raid, logging and welcome systems.">
   <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/918582795306164255/1365043266843840652/627d04f8ae7d889fe198f39253fb3a0e.png">
+  <style>
+    body { font-family: Arial, sans-serif; background: #1A1A1A; color: #F5F5F5; text-align: center; padding: 20px; }
+    a.button-glow:hover { box-shadow: 0 0 15px #7289DA, 0 0 25px #7289DA; transition: box-shadow 0.3s ease; }
+    h1 { animation: fadeInDown 1s ease forwards; }
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .carousel-container { position: relative; width: 90%; margin: auto; overflow: hidden; margin-top: 50px; }
+    .carousel-track { display: flex; transition: transform 0.5s ease; }
+    .carousel-item { flex: 0 0 33.333%; display: flex; justify-content: center; align-items: center; }
+    .carousel-item img { width: 100px; height: 100px; border-radius: 50%; transition: transform 0.3s, opacity 0.3s; cursor: pointer; }
+    .center img { transform: scale(1.2); opacity: 1; }
+    .side img { transform: scale(0.8); opacity: 0.5; }
+    .carousel-buttons { display: flex; justify-content: space-between; margin-top: 10px; }
+    .carousel-buttons button { background: #7289DA; color: white; border: none; padding: 10px 20px; border-radius: 10px; cursor: pointer; }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; background: #1A1A1A; color: #F5F5F5; text-align: center; padding: 20px;">
+<body>
 
-  <h1 style="font-size: 2.5em;">🦊 RoboFox</h1>
-  <p style="font-size: 1.2em;">Protect, manage, and grow your Discord server with RoboFox.</p>
+  <h1>🦊 RoboFox</h1>
+  <p>Protect, manage, and grow your Discord server with RoboFox.</p>
 
   <div style="margin: 30px;">
-    <a href="https://discord.com/oauth2/authorize?client_id=891017989879631892&permissions=8&scope=bot%20applications.commands" target="_blank" style="display: inline-block; padding: 15px 30px; background: #7289DA; color: white; text-decoration: none; margin: 10px; border-radius: 10px;">➕ Invite RoboFox</a>
-    <a href="https://dsc.gg/RoboFox" target="_blank" style="display: inline-block; padding: 15px 30px; background: #43B581; color: white; text-decoration: none; margin: 10px; border-radius: 10px;">🛡️ Support Server</a>
+    <a class="button-glow" href="https://discord.com/oauth2/authorize?client_id=891017989879631892&permissions=8&scope=bot%20applications.commands" target="_blank" style="display: inline-block; padding: 15px 30px; background: #7289DA; color: white; text-decoration: none; margin: 10px; border-radius: 10px;">➕ Invite RoboFox</a>
+    <a class="button-glow" href="https://dsc.gg/RoboFox" target="_blank" style="display: inline-block; padding: 15px 30px; background: #43B581; color: white; text-decoration: none; margin: 10px; border-radius: 10px;">🛡️ Support Server</a>
   </div>
 
   <section style="max-width: 800px; margin: auto; text-align: left;">
@@ -44,9 +59,61 @@
     </ul>
   </section>
 
+  <section style="margin-top: 50px;">
+    <h2>📜 Commands Gallery</h2>
+    <ul style="line-height: 1.8;">
+      <li><code>/ban</code> — Ban a user.</li>
+      <li><code>/kick</code> — Kick a user.</li>
+      <li><code>/mute</code> — Mute a user.</li>
+      <li><code>/unmute</code> — Unmute a user.</li>
+      <li><code>/timeout</code> — Timeout a member.</li>
+      <li><code>/purge</code> — Bulk delete messages.</li>
+      <li><code>/set-modlog</code> — Set mod logs channel.</li>
+      <li>...and more!</li>
+    </ul>
+  </section>
+
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <div class="carousel-item"><a href="https://discord.gg/q3ZHVXKgfA"><img src="https://cdn.discordapp.com/attachments/1101913415859056640/1366186212318249081/627d04f8ae7d889fe198f39253fb3a0e.png?ex=6810078f&is=680eb60f&hm=b96e81f78470db144bbe6c2253c47a7f461fa3eb00a0dd61b29e24d1fa080625&"></a></div>
+      <div class="carousel-item"><a href="https://discord.gg/q3ZHVXKgfA"><img src="https://cdn.discordapp.com/attachments/1101913415859056640/1366186212318249081/627d04f8ae7d889fe198f39253fb3a0e.png?ex=6810078f&is=680eb60f&hm=b96e81f78470db144bbe6c2253c47a7f461fa3eb00a0dd61b29e24d1fa080625&"></a></div>
+      <div class="carousel-item"><a href="https://discord.gg/q3ZHVXKgfA"><img src="https://cdn.discordapp.com/attachments/1101913415859056640/1366186212318249081/627d04f8ae7d889fe198f39253fb3a0e.png?ex=6810078f&is=680eb60f&hm=b96e81f78470db144bbe6c2253c47a7f461fa3eb00a0dd61b29e24d1fa080625&"></a></div>
+      <div class="carousel-item"><a href="https://discord.gg/q3ZHVXKgfA"><img src="https://cdn.discordapp.com/attachments/1101913415859056640/1366186212318249081/627d04f8ae7d889fe198f39253fb3a0e.png?ex=6810078f&is=680eb60f&hm=b96e81f78470db144bbe6c2253c47a7f461fa3eb00a0dd61b29e24d1fa080625&"></a></div>
+      <div class="carousel-item"><a href="https://discord.gg/q3ZHVXKgfA"><img src="https://cdn.discordapp.com/attachments/1101913415859056640/1366186212318249081/627d04f8ae7d889fe198f39253fb3a0e.png?ex=6810078f&is=680eb60f&hm=b96e81f78470db144bbe6c2253c47a7f461fa3eb00a0dd61b29e24d1fa080625&"></a></div>
+    </div>
+    <div class="carousel-buttons">
+      <button onclick="moveLeft()">⬅️</button>
+      <button onclick="moveRight()">➡️</button>
+    </div>
+  </div>
+
+  <p id="visitorCount" style="margin-top: 50px;">Loading...</p>
+
   <footer style="margin-top: 50px; font-size: 0.9em; color: #AAAAAA;">
     <p>© 2025 RoboFox - Built by CursedStar</p>
   </footer>
+
+<script>
+fetch('https://api.countapi.xyz/hit/robofox.xyz/visits')
+.then(response => response.json())
+.then(data => {
+  document.getElementById('visitorCount').innerText = `👀 ${data.value} visitors`;
+});
+
+const track = document.querySelector('.carousel-track');
+let position = 0;
+function moveLeft() { if (position > 0) { position--; updateCarousel(); } }
+function moveRight() { if (position < track.children.length - 3) { position++; updateCarousel(); } }
+function updateCarousel() {
+  track.style.transform = `translateX(-${position * 33.333}%)`;
+  Array.from(track.children).forEach((item, index) => {
+    item.className = 'carousel-item';
+    if (index === position + 1) item.classList.add('center');
+    else item.classList.add('side');
+  });
+}
+updateCarousel();
+</script>
 
 </body>
 </html>
